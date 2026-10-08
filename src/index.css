@@ -1,0 +1,119 @@
+body {
+  background-color: grey;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 2em auto;
+  width: 317px;
+  background-color: #1A1B21;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img {
+  display: block;
+  width: 100%;
+}
+
+/* Top section: intro + buttons */
+.top {
+  padding: 1em;
+}
+
+.intro {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.name,
+.job-title,
+.location {
+  margin: 0;
+  padding: 0;
+}
+
+.intro .job-title {
+  color: #F3BF99;
+  font-size: 0.8rem;
+  margin-bottom: 0.5em;
+}
+
+.intro .location {
+  color: #F5F5F5;
+  font-size: 0.64rem;
+}
+
+/* Buttons */
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 0.75em;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.6em 1em;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.email-btn {
+  background-color: #F5F5F5;
+  color: #1A1B21;
+}
+
+.linkedin-btn {
+  background-color: #0077B5;
+  color: white;
+}
+
+/* About + Interests */
+.info {
+  color: white;
+  padding: 1em;
+}
+
+.section h2 {
+  font-size: 1rem;
+  margin: 0.8em 0 0.4em;
+}
+
+.section p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  margin: 0;
+  color: #DCDCDC;
+}
+
+.interest-list {
+  margin: 0;
+  padding-left: 1.2em;
+  font-size: 0.8rem;
+  color:  #DCDCDC;
+  line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  padding: 1em;
+  background-color: #20212A;
+}
+
+.footer a {
+  color: #918E9B;
+  font-size: 1.4rem;
+  display: flex;
+}
+
+.footer a:hover {
+  color: white;
+}
